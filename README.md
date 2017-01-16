@@ -13,7 +13,9 @@ A site may have multiple open and close times for a single day. For example, the
 
 The team has built functionality that allows users to create, edit and view hours for a given site. We would like for you to develop the test plan including test cases and scenarios - including negative paths for this functionality.
 
-This functionality exists as part of our Site Dashboard application. Every site will have its own page. Each site page will have multiple cards. Cards are thematically grouped information - we have cards for site phone numbers, site contacts, and site location information. In this case you will start with an Hours Card.
+This functionality exists as part of our Site Dashboard application. Every site will have its own page. Each site page will be broken into multiple sections. Each section is called a card. Cards are thematically grouped information - we have cards for site phone numbers, site contacts, and site location information. In this case you will start with an Hours Card.
+
+[We have also created wireframes that demonstrate the functionality described in the requirements.](http://9g8csl.axshare.com/#g=1&p=individual_site_page)
 
 **Assumptions**
 - All times are local times to the site

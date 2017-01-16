@@ -1,0 +1,13 @@
+{
+  "name": "gstv-quality-assurance-exercise",
+  "version": "1.0.0",
+  "description": "The technical assesment for all GSTV QA Engineer candidates",
+  "devDependencies": {
+    "faker": "^3.1.0",
+  },
+  "scripts": {
+    "test": "codeceptjs run --steps"
+  },
+  "author": "Aaron Olson <aaron.olson@gstv.com> (http://www.gstv.com)",
+  "license": "ISC"
+}

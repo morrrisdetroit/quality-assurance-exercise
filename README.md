@@ -162,3 +162,63 @@ Create and edit site hours have the same business rules. The main difference is 
               - User is returned to the spot where they opened the wizard and the view will reflect changes from the wizard.
 
 ## Technical Exercise
+### Overview
+We will evaluate your ability to automate tests and your aptitude to learn new technology.
+
+### Installation
+You will be installing packages/software and running test from the command line. Start by downloading a copy of this repository onto your machine.
+
+#### Install Node
+We are assuming that you already have Node installed on your machine. We use Node.js `v4.4.0` and npm `3.10.8`
+
+If you do not have Node installed already there are a number of tutorials online that can walk you through this.
+
+#### Get a Selenium Instance Running
+*This step is not necessary if you already have an instance of Selenium running on your machine.*
+```
+npm install -g selenium-standalone
+```
+
+#### Install WebDriverIO
+You will be installing the WebDriverIO test runner that is used by CodeceptJS. Run the following command to install.
+```
+npm install -g webdriverio
+```
+
+#### Get the Selenium Instance Running
+The first time you run Selenium on you machine you will need to run a separate installation in addition to starting Selenium. Any subsequent times you will only need to run `selenium-standalone start.`
+This will start a Selenium instance on your machine.
+
+If you close your terminal the Selenium instance will stop and you will need to run `selenium-standalone start` again.
+
+_This step is not necessary if you already have an instance of Selenium running on your machine. If you already have Selenium installed make sure to start up the instance before running your tests._
+```
+selenium-standalone install
+selenium-standalone start
+```
+
+#### Install CodeceptJS
+Codecept JS provides a level of abstraction on top of WebDriverIO and other test runner libraries. We chose CodeceptJS for this exercise because we feel that the test is much clearer than Mocha assertions. Run the following command to install.
+```
+npm install -g codeceptjs
+```
+
+#### Install Project Specific Dependencies
+Change directories to the `quality-assurance-exercise` folder and run `npm install`.
+
+#### Verify Everything Is Working Together
+Run `npm test` or `codeceptjs run --steps`.
+
+You should see the following shortly afterwards.
+```
+Verify Tests Are Running
+• I am on page "/contact"
+• I see "Reach the team behind the screens"
+✓ OK
+```
+
+
+
+
+
+Tests are saved in `test/specs/*_test.js`

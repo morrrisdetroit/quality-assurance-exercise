@@ -1,0 +1,14 @@
+{
+  "tests": "test/specs/*_test.js",
+  "timeout": 10000,
+  "output": "./output",
+  "helpers": {
+    "WebDriverIO": {
+      "url": "http://gstv.staging.wpengine.com",
+      "browser": "chrome"
+    }
+  },
+  "bootstrap": false,
+  "mocha": {},
+  "name": "quality-assurance-exercise"
+}

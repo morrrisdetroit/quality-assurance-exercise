@@ -1,8 +1,10 @@
 # GSTV Quality Assurance Exercise
 
-1. [Exercise Overview](#exercise-overview)
+1. [Analysis Exercise](#analysis-exercise)
+1. [Technical Exercise](#technical-exercise)
 
-## Exercise Overview
+## Analysis Exercise
+### Overview
 The site - an individual gas station - is one of the lowest-level pieces of the GSTV business model - it is at the core of everything we do. Our hardware is installed at the site, advertisers purchase impressions at a site level and schedules are generated on a per-site basis. Thus, keeping accurate information about a site is essential to maintaining business operations.
 
 This data is used to know when to turn on and off hardware, helps us estimate how many times a video asset is expected to play, and simply is the site open when we try to call them.
@@ -11,7 +13,8 @@ A site may have multiple open and close times for a single day. For example, the
 
 [Taco Bell](http://s3-media2.fl.yelpcdn.com/bphoto/bzl1SoxoBR-ggedVDlECAA/ls.jpg) is a perfect example of business hours vs. chronological hours  - they may be open until 4am on Sunday, but you still think of it as Saturday night.
 
-The team has built functionality that allows users to create, edit and view hours for a given site. We would like for you to develop the test plan including test cases and scenarios - including negative paths for this functionality.
+### Requirements
+The team has built functionality that allows users to create, edit and view hours for a given site. We would like for you to develop the test plan including test cases and scenarios - including negative paths for this functionality. It is up to you how you document and organize this information - we just ask that you share your test plan with us prior to your interview.
 
 This functionality exists as part of our Site Dashboard application. Every site will have its own page. Each site page will be broken into multiple sections. Each section is called a card. Cards are thematically grouped information - we have cards for site phone numbers, site contacts, and site location information. In this case you will start with an Hours Card.
 
@@ -155,3 +158,5 @@ Create and edit site hours have the same business rules. The main difference is 
         - If BE validation passes
           - Pop Up Update Data
               - User is returned to the spot where they opened the wizard and the view will reflect changes from the wizard.
+
+## Technical Exercise

@@ -1,8 +1,8 @@
 # GSTV Quality Assurance Exercise
 
 1. [Analysis Exercise](#analysis-exercise)
-  i. [Overview](#overview)
-  i. [Requirements](#requirements)
+    i. [Overview](#overview)
+    i. [Requirements](#requirements)
 1. [Technical Exercise](#technical-exercise)
 
 ## Analysis Exercise

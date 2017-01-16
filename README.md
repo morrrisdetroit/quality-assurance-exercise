@@ -4,6 +4,9 @@
     1. [Overview](#overview)
     1. [Requirements](#requirements)
 1. [Technical Exercise](#technical-exercise)
+    1. [Overview](#overview)
+    1. [Installation](#installation)
+    1. [Version Control and Submitting](#version-control-and-submitting)
 
 ## Analysis Exercise
 ### Overview
@@ -163,7 +166,7 @@ Create and edit site hours have the same business rules. The main difference is 
 
 ## Technical Exercise
 ### Overview
-We will evaluate your ability to automate tests and your aptitude to learn new technology.
+We will evaluate your ability to automate tests and your aptitude to learn new technology while doing exploratory testing. Every day visitors reach out to us on gstv.com. We would like your help automating the regression tests for the contact form you can find at [gstv.com/contact](http://gstv.com/contact). You should focus on testing both positive and negative test scenarios. We have provided you a solid start on a positive example.
 
 ### Installation
 You will be installing packages/software and running test from the command line. Start by downloading a copy of this repository onto your machine.
@@ -217,8 +220,13 @@ Verify Tests Are Running
 ✓ OK
 ```
 
+#### Adding Tests
+Tests are saved in `test/specs/*_test.js`. [CodeceptJS has a number of WebDriverIO specific functions.](http://codecept.io/helpers/WebDriverIO/)
 
+### Version Control and Submitting
+#### GitFlow and GithubFlow
+We use [GitFlow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow/) on a daily basis - this allows us to build quality control into our development, QA and deployment process.
 
+We are asking that you use a modified [Github Flow](https://guides.github.com/introduction/flow/) - sometimes referred to as a [feature branch workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow) - methodology instead of GitFlow. Conceptually, GitFlow and Github flow are similar.
 
-
-Tests are saved in `test/specs/*_test.js`
+Please fork our repository and use a feature branch workflow while developing your functionality. When you are ready to submit your work make a [pull request against our repository](https://help.github.com/articles/using-pull-requests/).

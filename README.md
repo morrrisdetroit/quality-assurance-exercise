@@ -166,7 +166,7 @@ Create and edit site hours have the same business rules. The main difference is 
 
 ## Technical Exercise
 ### Overview
-We will evaluate your ability to automate tests and your aptitude to learn new technology while doing exploratory testing. Every day visitors reach out to us on gstv.com. We would like your help automating the regression tests for the contact form you can find in our [test environment](http://gstv.staging.wpengine.com). You should focus on testing both positive and negative test scenarios. We have provided you a solid start on a positive example.
+We will evaluate your ability to automate tests and your aptitude to learn new technology while doing exploratory testing. Every day visitors reach out to us on gstv.com. We would like your help automating the regression tests for the contact form you can find in our [test environment](http://gstv.staging.wpengine.com/contact). You should focus on testing both positive and negative test scenarios. We have provided you a solid start on a positive example.
 
 ### Installation
 You will be installing packages/software and running test from the command line. Start by downloading a copy of this repository onto your machine.

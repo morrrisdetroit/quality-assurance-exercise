@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "The technical assesment for all GSTV QA Engineer candidates",
   "devDependencies": {
-    "faker": "^3.1.0",
+    "faker": "^3.1.0"
   },
   "scripts": {
     "test": "codeceptjs run --steps"

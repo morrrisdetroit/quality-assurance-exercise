@@ -209,6 +209,8 @@ npm install -g codeceptjs
 #### Install Project Specific Dependencies
 Change directories to the `quality-assurance-exercise` folder and run `npm install`.
 
+We have included Faker to generate contextual test data. The [documentation](https://github.com/Marak/Faker.js) outlines how to specify the kind of test data you would like.
+
 #### Verify Everything Is Working Together
 Run `npm test` or `codeceptjs run --steps`.
 

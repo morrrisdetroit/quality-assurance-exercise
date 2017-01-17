@@ -39,3 +39,13 @@ Scenario('Postive Path - Submit a Contact Request', (I) => {
   I.dontSeeInSource('There was a problem with your submission. Errors have been highlighted below.', '.validation_error');
 
 });
+
+Scenario('Negative Path - Contact Type Not Provided', (I) => {
+  I.amOnPage('/contact');
+  I.see('Reach the team behind the screens');
+
+  // Submit
+  I.click('Contact GSTV');
+
+  I.see('This field is required.', '#field_3_8 .validation_message')
+});

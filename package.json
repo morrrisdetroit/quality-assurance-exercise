@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "The technical assesment for all GSTV QA Engineer candidates",
   "devDependencies": {
+    "Faker": "^0.7.2",
     "faker": "^3.1.0"
   },
   "scripts": {

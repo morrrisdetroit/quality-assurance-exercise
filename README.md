@@ -2,10 +2,10 @@
 
 1. [What We Are Looking For](#what-we-are-looking-for)
 1. [Analysis Exercise](#analysis-exercise)
-    1. [What We Are Looking For](#what-we-are-looking-for)
+    1. [Overview](#overview)
     1. [Requirements](#requirements)
 1. [Technical Exercise](#technical-exercise)
-    1. [What We Are Looking For](#what-we-are-looking-for)
+    1. [Overview](#overview)
     1. [Installation](#installation)
     1. [Version Control and Submitting](#version-control-and-submitting)
 

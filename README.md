@@ -1,5 +1,6 @@
 # GSTV Quality Assurance Exercise
 
+1. [What We Are Looking For](#what-we-are-looking-for)
 1. [Analysis Exercise](#analysis-exercise)
     1. [What We Are Looking For](#what-we-are-looking-for)
     1. [Requirements](#requirements)
@@ -8,8 +9,12 @@
     1. [Installation](#installation)
     1. [Version Control and Submitting](#version-control-and-submitting)
 
+## What We Are Looking For
+1. **Analysis Part** - Develop the test plan including test cases and scenarios - including negative paths for the hours functionality that we outlined in the [analysis exercise](#analysis-exercise) section.
+1. **Technical Part** - We will evaluate your ability to automate tests and your aptitude to learn new technology while doing exploratory testing at the site listed under the [technical exercise](#technical-exercise) section.
+
 ## Analysis Exercise
-### What We Are Looking For
+### Overview
 The team has built functionality that allows users to create, edit and view hours for a given site. We would like for you to develop the test plan including test cases and scenarios - including negative paths for the hours functionality that we outlined below. It is up to you how you document and organize this information - we just ask that you share your test plan with us prior to your interview.
 
 ### Requirements
@@ -165,7 +170,7 @@ Create and edit site hours have the same business rules. The main difference is 
               - User is returned to the spot where they opened the wizard and the view will reflect changes from the wizard.
 
 ## Technical Exercise
-### What We Are Looking For
+### Overview
 We will evaluate your ability to automate tests and your aptitude to learn new technology while doing exploratory testing. Every day visitors reach out to us on gstv.com. We would like your help automating the regression tests for the contact form you can find in our [test environment](http://gstv.staging.wpengine.com/contact). You should focus on testing both positive and negative test scenarios. We have provided you a solid start on a positive example.
 
 ### Installation
